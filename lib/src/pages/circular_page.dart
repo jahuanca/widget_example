@@ -9,7 +9,7 @@ class CircularPage extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           automaticallyImplyLeading: false,
-          title: Text('Circular page'),
+          title: const Text('Circular page'),
         ),
         body: Column(
           children: [
